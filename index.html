@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="w3_img" src="w3.png">
+        <ul class="header_left">
+            <!-- <li class="left_header_item">
+                <img class="w3_img" style=" padding-top: 10px;" src="w3.png">
+            </li> -->
+            <li id="first" class="left_header_item">
+                tutorials
+            </li>
+            <li id="second" class="left_header_item">
+                reference
+            </li>
+            <li id="third" class="left_header_item">
+                execises
+            </li>
+
+
+
+
+            <!-- <div class="button_box">
+                <button class="buttons">Bootcamp</button>
+
+                <button class="buttons">hello</button>
+
+                <button class="buttons">hello</button>
+            </div> -->
+
+        </ul>
+        <ul class="right_header">
+            <li class="right_header_item">
+                <button id="button_1" class="buttons">Bootcamp</button>
+            </li>
+            <li class="right_header_item">
+                <button id="button_2" class="buttons">join</button>
+            </li>
+            <li class="right_header_item">
+                <button id="button_3" class="buttons">log in</button>
+            </li>
+            <li class="right_header_item">
+                <button id="menu_button_" class="buttons" type="button" onclick="myFunction()">menu</button>
+            </li>
+            <li class="right_header_item">
+                <button id="menu_close_button" class="buttons" type="button" onclick="myFunction_close()">X</button>
+            </li>
+
+        </ul>
+
+    </header>
+    <div id="menu_" class="drop">
+        <ul class="drop-item">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">tutorials</a></li>
+            <li><a href="#">reference</a></li>
+            <li><a href="#">Execise</a></li>
+        </ul>
+    </div>
+
+    <div class="language_list">
+        <ul>
+            <li><a><button>HTML</button></a></li>
+            <li><button>CSS</button></li>
+            <li><button>JAVASCRIPT</button></li>
+            <li><button>SQL</button></li>
+            <li><button>PYTHON</button></li>
+            <li><button>PANDAS</button></li>
+            <li><button>REACTJS</button></li>
+            <li><button>ANGULAR</button></li>
+            <li><button>LINUX</button></li>
+            <li><button>CPP</button></li>
+            <li><button>C#</button></li>
+
+        </ul>
+    </div>
+
+    <div class="main_frame">
+
+        <div class="first_box">
+            <div class="text_1">
+                <h1>Learn to code</h1>
+            </div>
+            <div class="text_2">
+                <h1>With the world's largest web developer site.</h1>
+            </div>
+            <div class="search_bar">
+                <input type="text" style="padding:15px; margin-top: -20px;" placeholder="Search our tutorials, eg. HTML">
+                <span class="search_button" type="button">search</span>
+            </div>
+
+            <div class="box_link">
+                <a href="#">
+                    <h2>Not Sure Where To Begin?</h2>
+                </a>
+            </div>
+        </div>
+        <div class="second_box">
+            <div class="data">
+                <div class="html">
+                    <h1>HTML</h1>
+                </div>
+
+                <div class="info">
+                    <h5>the language for building the web apps</h5>
+                </div>
+
+                <div id="all_buttons"><button id="box_button" class="button1">learn html</button></div>
+                <div id="all_buttons"><button id="box_button" class="button2">video tutorials</button></div>
+                <div id="all_buttons"><button id="box_button" class="button3">HTML refrence</button></div>
+                <div id="all_buttons"><button id="box_button" class="button4">Get certified</button></div>
+            </div>
+            <div class="code">
+                <div class="box">
+                    <div class="right_info">
+                        <h2>HTML Example:</h2>
+                    </div>
+
+                    <div class="sample_code_box">
+                        <p class="sample_code">
+                            &lt;!DOCTYPE html&gt;<br>
+                            &lt;html&gt;<br>
+                            &lt;title&gt;HTML Tutorial&lt;/title&gt;<br>
+                            &lt;body&gt;
+                            <br><br>
+                            &lt;h1&gt;This is a heading&lt;/h1&gt;
+                            <br>
+                            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                            <br><br>
+
+                            &lt;/body&gt;
+                            <br>
+                            &lt;/html&gt;
+                            <br>
+                        </p>
+                    </div>
+                    <button class="try_button" type="button">Try it yourself</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="third_box">
+            <div class="data">
+                <div class="html">
+                    <h1>CSS</h1>
+                </div>
+
+                <div class="info">
+                    <h5>the language for styling the web apps</h5>
+                </div>
+
+                <div id="all_buttons"><button id="box_button" class="button1">learn CSS</button></div>
+                <div id="all_buttons"><button id="box_button" class="button3">CSS refrence</button></div>
+                <div id="all_buttons"><button id="box_button" class="button4">Get certified</button></div>
+            </div>
+            <div class="code">
+                <div class="box">
+                    <div class="right_info">
+                        <h2>CSS Example:</h2>
+                    </div>
+
+                    <div class="sample_code_box">
+                        <p class="sample_code">
+                            body {<br>
+                            background-color: <br>lightblue;
+                            <br>
+                            }<br>
+                            <br>
+                            h1 {<br>
+                            color: white;<br>
+                            text-align: center;<br>
+                            }<br>
+
+                            p {<br>
+                            font-family: <br>verdana;<br>
+                            }<br>
+                        </p>
+                    </div>
+                    <button class="try_button" type="button">Try it yourself</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="fourth_box">
+            <div class="data">
+                <div class="JavaScript" style="color: white;">
+                    <h1>JS</h1>
+                </div>
+
+                <div class="info">
+                    <h5>the language for styling the web apps</h5>
+                </div>
+
+                <div id="all_buttons"><button id="box_button" class="button1">learn CSS</button></div>
+                <div id="all_buttons"><button id="box_button" class="button3" style="background-color: aquamarine;">CSS
+                        refrence</button></div>
+                <div id="all_buttons"><button id="box_button" class="button4">Get certified</button></div>
+            </div>
+            <div class="code">
+                <div class="box">
+                    <div class="right_info" style="color: black;">
+                        <h2>CSS Example:</h2>
+                    </div>
+
+                    <div class="sample_code_box">
+                        <p class="sample_code">
+                            body {<br>
+                            background-color: <br>lightblue;
+                            <br>
+                            }<br>
+                            <br>
+                            h1 {<br>
+                            color: white;<br>
+                            text-align: center;<br>
+                            }<br>
+
+                            p {<br>
+                            font-family: <br>verdana;<br>
+                            }<br>
+                        </p>
+                    </div>
+                    <button class="try_button" type="button">Try it yourself</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="fifth_box">
+            <div class="data">
+                <div class="html">
+                    <h1>Python</h1>
+                </div>
+
+                <div class="info">
+                    <h5>the language for styling the web apps</h5>
+                </div>
+
+                <div id="all_buttons"><button id="box_button" class="button1">learn CSS</button></div>
+                <div id="all_buttons"><button id="box_button" class="button3" style="background-color: aquamarine;">CSS
+                        refrence</button></div>
+                <div id="all_buttons"><button id="box_button" class="button4">Get certified</button></div>
+            </div>
+            <div class="code">
+                <div class="box">
+                    <div class="right_info" style="color: black;">
+                        <h2>CSS Example:</h2>
+                    </div>
+
+                    <div class="sample_code_box">
+                        <p class="sample_code">
+                            body {<br>
+                            background-color: <br>lightblue;
+                            <br>
+                            }<br>
+                            <br>
+                            h1 {<br>
+                            color: white;<br>
+                            text-align: center;<br>
+                            }<br>
+
+                            p {<br>
+                            font-family: <br>verdana;<br>
+                            }<br>
+                        </p>
+                    </div>
+                    <button class="try_button" type="button">Try it yourself</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sixth_box">
+            <div class="data">
+                <div class="html">
+                    <h1>SQL</h1>
+                </div>
+
+                <div class="info">
+                    <h5>the language for styling the web apps</h5>
+                </div>
+
+                <div id="all_buttons"><button id="box_button" class="button1">learn CSS</button></div>
+                <div id="all_buttons"><button id="box_button" class="button3" style="background-color: aquamarine;">CSS
+                        refrence</button></div>
+                <div id="all_buttons"><button id="box_button" class="button4">Get certified</button></div>
+            </div>
+            <div class="code">
+                <div class="box">
+                    <div class="right_info" style="color: black;">
+                        <h2>CSS Example:</h2>
+                    </div>
+
+                    <div class="sample_code_box">
+                        <p class="sample_code">
+                            body {<br>
+                            background-color: <br>lightblue;
+                            <br>
+                            }<br>
+                            <br>
+                            h1 {<br>
+                            color: white;<br>
+                            text-align: center;<br>
+                            }<br>
+
+                            p {<br>
+                            font-family: <br>verdana;<br>
+                            }<br>
+                        </p>
+                    </div>
+                    <button class="try_button" type="button">Try it yourself</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="main_container">
+
+        <div class="containers" style="background-color: #FFC0C7;">
+            <h1>PHP</h1>
+            <p>A web server programming language<p>
+                <button>
+                    learn PHP
+                </button>      
+        </div>
+        <div class="containers"style="background-color: #FFF4A3;">
+            <h1>PHP</h1>
+            <p>A web server programming language<p>
+                <button>
+                    learn PHP
+                </button>      
+        </div>
+        <div class="containers"style="background-color: #F3ECEA;">
+            <h1>PHP</h1>
+            <p>A web server programming language<p>
+                <button>
+                    learn PHP
+                </button>      
+        </div>
+        <div class="containers"style="background-color: #D9EEE1;">
+            <h1>PHP</h1>
+            <p>A web server programming language<p>
+                <button>
+                    learn PHP
+                </button>      
+        </div>
+        <div class="containers"style="background-color: #96D4D4;">
+            <h1>PHP</h1>
+            <p>A web server programming language<p>
+                <button>
+                    learn PHP
+                </button>      
+        </div>
+        <div class="containers"style="background-color: #E7E9EB;">
+            <h1>PHP</h1>
+            <p>A web server programming language<p>
+                <button>
+                    learn PHP
+                </button>      
+        </div>
+        <div class="containers"style="background-color: #EAB1B9;height: 150px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 50px;">C</h1>   
+        </div>
+        <div class="containers"style="background-color: #EAE098;height: 150px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 50px;">C#</h1>   
+        </div>
+        
+
+    </div>
+
+
+    <div class="other_container">
+
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >R</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #C8DBD0;">
+            <h1 >Kotlin</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >Node.js</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >React</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #C8DBD0;">
+            <h1 >Json</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >Vue</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >MySql</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #C8DBD0;">
+            <h1 >Sass</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >XML</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >Icons</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #C8DBD0;">
+            <h1 >Rwd</h1>
+        </div>
+        <div class="other_containers_all"style="background-color: #F3ECEA;">
+            <h1 >Graphics</h1>
+        </div>
+
+        <div class="containers"style="background-color: #96D4D4;height: 150px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 50px;">Excel</h1>   
+        </div>
+        <div class="containers"style="background-color: #EAE098;height: 150px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 50px;">Google Sheets</h1>   
+        </div>
+
+        <div class="containers"style="background-color: #EAB1B9;height: 150px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 50px;">Machine Learning</h1>   
+        </div>
+        <div class="containers"style="background-color: #96D4D4;height: 150px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 50px;">Artificial Intelligence</h1>   
+        </div>
+        
+    </div>
+
+
+    <div class="code_editor_info">
+        <h1>Code Editor</h1>
+        <p>With our online code editor, you can edit code and view the result in your browser</p>
+        <img src="codeeditor.gif">
+        <button class="btn1" >Try frontend editor(HTML/CSS/JS)
+            
+        </button>
+        <button class="btn2" >Try Backend editor(PHP/PYTHON/c++...)
+            
+        </button>
+    </div>
+
+    <div class="w3_school_spaces">
+
+        <h1>W3School Spaces</h1>
+        <p>If you want to create your own website, check out  <span ><a>W3Schools Spaces</a></span>.</p>
+        <p>It is free to use, and does not require any setup:</p>
+        <img src="dynamicspaces.gif">
+        <img src="how-spaces-works3.png">
+
+        <button class="learn_more_btn">Learn more</button>
+        
+    </div> 
+
+    <div class="my_learnings">
+        <h1>My Learnings</h1>
+        <p>Track your progress with our <b>free</b> "My Learning" program.</p>
+        <p>Log in to your account, and start earning points!</p>
+        <img src="myl-green-off.png">
+        <button class="sign_up_for_free_btn">sign up for free</button>
+    </div>
+
+
+    <div class="become_pro">
+        <h1>Become a PRO User</h1>
+        <p>And unlock powerful features:</p>
+
+        <ol>
+            <li>Browse W3Schools<b>without ads</b> </li>
+            <li>Website hosting (Includes <a>Spaces</a> PRO)</li>
+            <li>Access to our <a>HTML Video Tutorial</a></li>
+        </ol>
+
+        <button class="learn_more_btn" style="margin-top: 60px; width: 250px;">Learn more</button>
+    </div>
+
+    <div class="color_picker">
+        <h1>Color Picker</h1>
+        <p>W3Schools' famous color picker:</p>
+        <img src="colorpicker.png">
+    </div>
+    <div class="code_game">
+        <h1>Code Game</h1>
+        <p>Help the Lynx collect pine cones!</p>
+        <img src="w3lynx_200.png">
+
+        <button class="play_game_btn">Play Game</button>
+
+    </div>
+
+    <div class="execises_and_quizes">
+        <h1>Execises and Quizes</h1>
+        <p>Test your skills!</p>
+
+        <div class="containers"style="background-color: #05A66B;color:white;height: 200px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 75px;">Execises</h1>   
+        </div>
+        <div class="containers"style="background-color: #F8EA7E;color:black;height: 200px;">
+            <h1 style="text-align: center;align-items: center;padding-top: 75px;">Quizes</h1>   
+        </div>
+    </div>
+
+    <div class="web_templates">
+        <h1>Web Templates</h1>
+        <p>Browse our selection of <b>free</b> responsive HTML Templates</p>
+        <img src="w3css_templates.jpg">
+        <button class="browse_templates_btn">
+            Browse Templates
+        </button>
+    </div>
+    <div class="kick_start">
+        <img src="kickstart.png" alt="#">
+    </div>
+
+</body>
+
+<script>
+    function myFunction() {
+        document.getElementById("menu_").style.display = "block";
+        document.getElementById("menu_button_").style.display = "none";
+        document.getElementById("menu_close_button").style.display = "block";
+    }
+    function myFunction_close() {
+        document.getElementById("menu_").style.display = "none";
+        document.getElementById("menu_button_").style.display = "block";
+        document.getElementById("menu_close_button").style.display = "none";
+    }
+</script>
+
+</html>
